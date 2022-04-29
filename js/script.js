@@ -59,7 +59,7 @@ conteiner.before(header);
 const logo = document.createElement('img');
 logo.className = 'header__logo';
 logo.setAttribute('alt', 'pic');
-logo.setAttribute('src', '../img/logo.png');
+logo.setAttribute('src', './img/logo.png');
 
 header.append(logo);
 
