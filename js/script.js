@@ -108,7 +108,7 @@ videoText.innerHTML += `
 little attention, the plants will accompany you quietly</p>
 `;
 
-videoRect.style.background = `url('../img/Polygon.png') no-repeat`
+videoRect.style.background = `url('./img/Polygon.png') no-repeat`
 videoBut.innerHTML = 'WATCH THE VIDEO'
 
 //add footer
